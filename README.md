@@ -1,2 +1,1 @@
-# info
-Repositório para o Projeto Initial Running
+# Projeto Initial Running
