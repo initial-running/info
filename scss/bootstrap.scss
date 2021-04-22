@@ -13,6 +13,8 @@ $theme-colors: (
   "white": #F57F17,
 );
 
+$font-family-sans-serif: 'Nunito', "Helvetica Neue", Arial, sans-serif;
+
 @import "functions";
 @import "variables";
 @import "mixins";
