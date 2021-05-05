@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Initial Running - Corrida para amadores</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+
+  <meta name="description" content="Dê a primeira passada rumo ao seu objetivo.">
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Initial Running - Corrida para amadores" />
+	<meta property="og:description" content="Dê a primeira passada rumo ao seu objetivo." />
+	<meta property="og:url" content="https://initial-running.github.io/info/" />
+	<meta property="og:image" content="https://initial-running.github.io/info/img/og-image-2.jpg" />
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginTitulo" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLoginTitulo">Entre na Sua Conta</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="loginEmail">Email</label>
+              <input type="email" class="form-control" id="loginEmail">
+            </div>
+            <div class="form-group">
+              <label for="loginSenha">Senha</label>
+              <input type="password" class="form-control" id="loginSenha">
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar na Conta</button>
+            <small class="form-text text-muted">Esqueceu a senha? <a href="#">Clique aqui</a>.</small>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fecha Modal -->
+
+  <nav class='navbar navbar-expand-md navbar-dark bg-secondary fixed-top py-3 box-shadow'>
+    <a href="index.html" class='navbar-brand'>
+      <img src="img/initial-running.svg" alt="Initial Running">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class='navbar-nav ml-auto'>
+        <li class='nav-item dropdown'>
+          <a href="#" class='nav-link dropdown-toggle text-primary' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Técnicas</a>
+          <div class='dropdown-menu' aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="respiracao.html">Respiração</a>
+            <a class="dropdown-item" href="local.html">Tópico2</a>
+            <a class="dropdown-item" href="local.html">Tópico3</a>
+          </div>
+        </li>
+        <li class='nav-item'>
+          <a href="planos.html" class='nav-link text-primary'>Planos</a>
+        </li>
+        <li class='nav-item'>
+          <a href="contato.html" class='nav-link text-primary'>Contato</a>
+        </li>
+        <li class='nav-item'>
+          <a href="#" class='nav-link text-primary' data-toggle="modal" data-target="#modalLogin">Autores</a>
+        </li>
+        <li class='nav-item'>
+          <a href="inscricao.html" class='btn btn-outline-primary ml-md-2'>Iniciantes</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class='container'>
+    <div class='text-center my-5'>
+      <h1 class='display-4 text-primary'>Técnicas de Respiração</h1>
+    </div>
+    <div class="row md-6">
+      <p>Uma pergunta feita por muitas pessoas é: “como controlar a minha respiração durante a corrida?” Bom, mesmo após muitas pesquisas acerca de tal tópico, não temos uma resposta concreta para darmos a vocês, mas algumas coisas que pontuaremos a seguir poderá gerar resultados durante a prática.</p>
+      <p>Algo que devemos levar em conta é que a nossa taxa de respiração é relacionada diretamente ao nosso condicionamento físico, ou seja, quanto mais condicionado fisicamente você estiver, mais fácil será respirar e manter o folego. Logo, não existe um padrão correto ou errado quanto a respirar, pois cada indivíduo possui a sua maneira. </p>
+      <p>Entretanto, uma coisa importante a ser feita durante a corrida é cadenciar sua respiração, ou seja não force a expiração apenas pelo nariz, pois a evasão de ar será menor e consequentemente aumentará a acidez sanguínea tornando um exercício aeróbico em anaeróbico. Com isso, a princípio respire como está acostumado, seja pela boca ou nariz. Assim, tente criar consciência de como você respira e deixa ela fluir naturalmente. </p>
+      <p>Outra dica é você fazer uso da meditação, pois ela poderá ajudar a melhorar a concentração, além de fazer você ter consciência da respiração e saber qual a forma que você respira, seja elevando o abdome ou a caixa torácica.</p>
+      <p>Por fim, outra pergunta muito questionada é sobre aquela dorzinha que podemos sentir na região lateral do corpo. Ela é um aviso do corpo para dizer que tem algo errado, mas pode ter diversas causas que não são graves, tal como ser relacionada: </p>
+      <ul>
+        <li>A respiração significa que sua taxa de respiração está mais acelerada do que seu corpo está aguentando, ou seja você está correndo num ritmo que seu corpo não está acostumado, o que causa um estresse fisiológico corporal fazendo com que haja a necessidade de uma demanda de ar maior.</li>
+        <li>E a digestão, pois você poderá ter consumido alimentos pesados ou não deu um tempo para que seu corpo pudesse fazer o processo de digestão. </li>
+        <li>Para resolver essa dor incômoda, você poderá inspirar profundamente pelo abdome, enchendo bem a caixa torácica e soltar o ar pela boca contraindo bem o abdome. Repita esse processo de 3 a 5 vezes no mínimo ou quantas vezes for necessário, de forma a alongar seu diafragma, aliviando a dor.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class='bg-dark text-white mt-5'>
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-3 col-6">
+          <h4 class='h6 text-primary'>PÁGINAS</h4>
+          <ul class='list-unstyled'>
+            <li><a class="text-white" href="planos.html">Planos</a></li>
+            <li><a class="text-white" href="contato.html">Contato</a></li>
+            <li><a class="text-white" href="inscricao.html">Inscreva-se</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-6">
+          <h4 class='h6 text-primary'>LOCAIS</h4>
+          <ul class='list-unstyled'>
+            <li><a class="text-white" href="local.html">California</a></li>
+            <li><a class="text-white" href="local.html">Paris</a></li>
+            <li><a class="text-white" href="local.html">Dublin</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4 class='h6 text-primary'>DADOS DE CONTATO</h4>
+          <ul class="list-unstyled text-info">
+            <li>caravan@caravan.com.br</li>
+            <li>21 99999-9999</li>
+            <li>De Seg. à Sex. das 8h às 18h</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h4 class='h6'>REDES SOCIAIS</h4>
+          <ul class="list-unstyled">
+            <li><a class="btn btn-outline-info btn-sm btn-block mb-2" href="#" style="max-width: 140px">Facebook</a></li>
+            <li><a class="btn btn-outline-info btn-sm btn-block mb-2" href="#" style="max-width: 140px">Twitter</a></li>
+            <li><a class="btn btn-outline-info btn-sm btn-block mb-2" href="#" style="max-width: 140px">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bg-primary text-center text-secondary py-3">
+      <p class="mb-0">Initial Running © 2021. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
