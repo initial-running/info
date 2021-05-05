@@ -13,6 +13,9 @@ body {
   #home-quote .display-4 {
     font-size: 2.5rem;
   }
+  .blockquote {
+    margin-bottom: 0;
+  }
   body {
     padding-top: 0px;
   }
